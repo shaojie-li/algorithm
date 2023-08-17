@@ -10,7 +10,7 @@
 export const twoSum = (nums: number[], target: number) => {
     const cache = new Map<number, number>();
     for (let i = 0; i < nums.length; i++) {
-        const expectNum = target - nums[i]     ;
+        const expectNum = target - nums[i];
         if (cache.has(expectNum)) {
             return [i, cache.get(expectNum)];
         }
