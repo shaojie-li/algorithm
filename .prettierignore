@@ -1,0 +1,8 @@
+**/.git
+**/node_modules
+**/lib
+**/dist
+package.json
+tsconfig.json
+.cache
+*.yaml
