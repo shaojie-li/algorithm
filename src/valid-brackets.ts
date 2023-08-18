@@ -32,5 +32,6 @@ export const validBrackets = (brackets: string) => {
         }
     }
 
+    // 若果存在栈中的括号能清空，说明传入的参数右有效括号
     return !stack.length;
 };

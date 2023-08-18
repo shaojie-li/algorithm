@@ -1,6 +1,6 @@
 import { twoSum } from "src/two-sum";
 
-describe("算法：两数之和", () => {
+describe("两数之和", () => {
     it("twoSum([2, 7, 11, 15], 9)，返回 [1, 0]", () => {
         expect(twoSum([2, 7, 11, 15], 9)).toEqual([1, 0]);
     });
