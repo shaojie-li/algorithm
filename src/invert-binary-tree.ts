@@ -1,3 +1,5 @@
+import { TreeNode } from "./utils/TreeNode";
+
 /**
  * 给你一棵二叉树的根节点 root ，翻转这棵二叉树，并返回其根节点。
  *
@@ -18,26 +20,9 @@
 export const invertTree = (root: TreeNode | null | undefined): TreeNode | null => {
     if (!root) return null;
 
-    // 缓存右节点
-    const temp = root.right;
-
-    // 分别翻转其左右节点，直到root无值
-    root.right = invertTree(root.left);
-    root.left = invertTree(temp);
+    const tempLeftNode = root.left;
+    root.left = invertTree(root.right);
+    root.right = invertTree(tempLeftNode);
 
     return root;
 };
-
-export class TreeNode {
-    public val: TreeNode | number;
-    public left?: TreeNode | null;
-    public right?: TreeNode | null;
-
-    constructor(val: TreeNode, left: TreeNode, right: TreeNode) {
-        this.val = val === undefined ? 0 : val;
-        this.left = left === undefined ? null : left;
-        this.right = right === undefined ? null : right;
-    }
-}
-
-invertTree(new TreeNode({ val: 2 }, { val: 3 }, { val: 1 }));

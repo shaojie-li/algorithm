@@ -1,4 +1,5 @@
-import { invertTree, TreeNode } from "src/invert-binary-tree";
+import { invertTree } from "src/invert-binary-tree";
+import { TreeNode } from "src/utils/TreeNode";
 
 describe("翻转二叉树", function () {
     it("输入 [4,2,7,1,3,6,9]，输出 [4,7,2,9,6,3,1]", () => {

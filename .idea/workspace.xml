@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="203cc0b2-3372-4884-92ca-795f56532be3" name="Changes" comment="feat: 新增字符串的排列算法">
+      <change afterPath="$PROJECT_DIR$/__test__/calc-gcd.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/calc-gcd.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/TreeNode.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__test__/invert-binary-tree.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/__test__/invert-binary-tree.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/invert-binary-tree.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/invert-binary-tree.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2U6AMjpT6tpNoOJHh2uvioCLEGo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "javascript.nodejs.core.library.configured.version": "18.16.0",
+    "javascript.nodejs.core.library.typings.version": "18.16.0",
+    "last_opened_file_path": "/Users/edy/codingSpace/personal/algorithm/__test__",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "/Users/edy/codingSpace/personal/algorithm/node_modules/jest",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/edy/codingSpace/personal/algorithm/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/__test__" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/two-sum" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TypeScript.calc-gcd.ts">
+    <configuration name="翻转二叉树" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/__test__/invert-binary-tree.test.ts" />
+      <test-names>
+        <test-name value="翻转二叉树" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="calc-gcd.ts" type="NodeJSConfigurationType" temporary="true" node-parameters="--require ts-node/register " path-to-js-file="$PROJECT_DIR$/src/calc-gcd.ts" working-dir="$PROJECT_DIR$/src">
+      <method v="2" />
+    </configuration>
+    <configuration name="calc-gcd.ts" type="TypeScriptProgramRunner" factoryName="TypeScript" temporary="true">
+      <module name="algorithm" />
+      <option name="interpreterRef" value="project" />
+      <option name="enabledTsNodeEsmLoader" value="false" />
+      <option name="interpreterOptions" value="" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/src" />
+      <option name="tsconfigFile" value="" />
+      <option name="extraTypeScriptOptions" value="" />
+      <option name="scriptName" value="$PROJECT_DIR$/src/calc-gcd.ts" />
+      <option name="programParameters" value="" />
+      <option name="tsnodePackage" value="~/codingSpace/personal/algorithm/node_modules/ts-node" />
+      <method v="2" />
+    </configuration>
+    <configuration name="invert-binary-tree.ts" type="TypeScriptProgramRunner" factoryName="TypeScript" temporary="true">
+      <module name="algorithm" />
+      <option name="interpreterRef" value="project" />
+      <option name="enabledTsNodeEsmLoader" value="false" />
+      <option name="interpreterOptions" value="" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/src" />
+      <option name="tsconfigFile" value="" />
+      <option name="extraTypeScriptOptions" value="" />
+      <option name="scriptName" value="$PROJECT_DIR$/src/invert-binary-tree.ts" />
+      <option name="programParameters" value="" />
+      <option name="tsnodePackage" value="~/codingSpace/personal/algorithm/node_modules/ts-node" />
+      <method v="2" />
+    </configuration>
+    <configuration name="valid-brackets.ts" type="TypeScriptProgramRunner" factoryName="TypeScript" temporary="true">
+      <module name="algorithm" />
+      <option name="interpreterRef" value="project" />
+      <option name="enabledTsNodeEsmLoader" value="false" />
+      <option name="interpreterOptions" value="" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/src" />
+      <option name="tsconfigFile" value="" />
+      <option name="extraTypeScriptOptions" value="" />
+      <option name="scriptName" value="$PROJECT_DIR$/src/valid-brackets.ts" />
+      <option name="programParameters" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Jest.翻转二叉树" />
+      <item itemvalue="Node.js.calc-gcd.ts" />
+      <item itemvalue="TypeScript.calc-gcd.ts" />
+      <item itemvalue="TypeScript.invert-binary-tree.ts" />
+      <item itemvalue="TypeScript.valid-brackets.ts" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TypeScript.calc-gcd.ts" />
+        <item itemvalue="Node.js.calc-gcd.ts" />
+        <item itemvalue="Node.js.calc-gcd.ts" />
+        <item itemvalue="Node.js.calc-gcd.ts" />
+        <item itemvalue="Node.js.calc-gcd.ts" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="203cc0b2-3372-4884-92ca-795f56532be3" name="Changes" comment="" />
+      <created>1692249611015</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692249611015</updated>
+      <workItem from="1692249612070" duration="24917000" />
+      <workItem from="1692584480266" duration="3789000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: 新增字符串的排列算法">
+      <created>1692347918739</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692347918739</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="feat: 新增字符串的排列算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 新增字符串的排列算法" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/two-sum/index.ts</url>
+          <line>12</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="NodeJSConfigurationType">
+        <watch expression="num1%num2" language="TypeScript" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
