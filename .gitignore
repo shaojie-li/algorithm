@@ -3,4 +3,6 @@ coverage
 
 # macOS file
 .DS_STORE
+
+# IDEA
 .idea
