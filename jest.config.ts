@@ -26,6 +26,10 @@ const config: Config = {
      * 覆盖率结果输出的文件夹
      */
     coverageDirectory: "coverage",
+    /**
+     * 定义需要测试/不测试的文件或文件夹
+     */
+    collectCoverageFrom: ["**/src/**", "!**/src/utils/**"],
 };
 
 export default config;
