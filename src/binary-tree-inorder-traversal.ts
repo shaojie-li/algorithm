@@ -39,7 +39,7 @@ export const binaryTreeInorderTraversalIterator = (root: TreeNode | null | undef
     const stack: TreeNode[] = [];
 
     while (root || stack.length) {
-        // 先处理左子节点
+        // 先将根节点和左子节点入栈
         while (root) {
             // 将根节点先入栈存起来
             stack.push(root);
@@ -47,8 +47,9 @@ export const binaryTreeInorderTraversalIterator = (root: TreeNode | null | undef
             root = root.left;
         }
 
-        // 将根节点放入结果中
+        // 按照栈先进后出的特性，先取栈中最后一个节点并出栈
         root = stack.pop();
+        // 将当前节点的val值放入结果中
         typeof root?.val === "number" && res.push(root.val);
         root = root?.right || null;
     }
@@ -57,5 +58,5 @@ export const binaryTreeInorderTraversalIterator = (root: TreeNode | null | undef
 };
 
 binaryTreeInorderTraversalIterator(
-    new TreeNode(1, { val: 3, left: { val: 4 }, right: null }, { val: 7, left: { val: 0 }, right: { val: 9 } }),
+    new TreeNode(1, { val: 3, left: { val: 4 }, right: {val: 5} }, { val: 7, left: { val: 0 }, right: { val: 9 } }),
 );

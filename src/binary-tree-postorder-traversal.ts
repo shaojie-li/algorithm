@@ -5,9 +5,8 @@ import { TreeNode } from "./utils/TreeNode";
  * ******
  *
  * > 定义：先访问左子节点，再访问右子节点，最后访问根节点
- * 思路：
- * 1. 递归实现
- * 2. 迭代实现（TODO）
+ *
+ * 递归算法实现
  */
 export const binaryTreePostorderTraversal = (root: TreeNode | null | undefined) => {
     const res: number[] = [];
@@ -22,6 +21,18 @@ export const binaryTreePostorderTraversal = (root: TreeNode | null | undefined) 
         }
     };
     _postorderTraversal(root);
+
+    return res;
+};
+
+/**
+ * 二叉树的后序遍历
+ * ******
+ *
+ * 迭代算法实现
+ */
+export const binaryTreePostorderTraversalIterator = (root: TreeNode | null | undefined) => {
+    const res: number[] = [];
 
     return res;
 };
