@@ -5,6 +5,10 @@ describe("有效的括号", function () {
         expect(validBrackets("(())(())()")).toBe(true);
     });
 
+    it("(()} 为无效的括号", function () {
+        expect(validBrackets("(()}")).toBe(false);
+    });
+
     it("()) 为无效的括号", function () {
         expect(validBrackets("())")).toBe(false);
     });

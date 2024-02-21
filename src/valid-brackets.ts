@@ -28,6 +28,9 @@ export const validBrackets = (brackets: string) => {
             // 如果左括号能匹配到对应的右括号，则将左括号从栈中删除
             if (bracketsMap.get(stackTop) === bracket) {
                 stack.pop();
+            } else {
+                // 如果栈顶的左括号不能匹配其对应的右括号，说明为无效括号，提前退出循环，提高性能
+                break;
             }
         }
     }

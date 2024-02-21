@@ -1,4 +1,4 @@
-import { TreeNode } from "./utils/TreeNode";
+import { TreeNode } from "../utils/TreeNode";
 
 /**
  * 二叉树的前序遍历
@@ -41,7 +41,7 @@ export const binaryTreePreorderTraversalIterator = (root: TreeNode | null): numb
         // 出栈一条数据，即取栈顶数据（最后一条进栈的数据）
         const node = stack.pop();
         // 如果出栈的数据的val有值，将它存入结果中
-        node?.val && res.push(node.val);
+        typeof node?.val === "number" && res.push(node.val);
 
         // 如果左右节点存在，则先将右子节点押入栈中，再押入左子节点
         // 押入栈中的先后顺序很重要，因为先序遍历的顺序是根、左、右，右是最后一个需要取出的，然后是左

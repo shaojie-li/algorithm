@@ -1,4 +1,4 @@
-import { binaryTreePostorderTraversal } from "src/binary-tree-postorder-traversal";
+import { binaryTreePostorderTraversal } from "../src/binary-tree/binary-tree-postorder-traversal";
 import { TreeNode } from "src/utils/TreeNode";
 
 describe("二叉树的后序遍历", function () {

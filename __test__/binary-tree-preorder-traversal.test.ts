@@ -1,5 +1,5 @@
 import { TreeNode } from "src/utils/TreeNode";
-import { binaryTreePreorderTraversal, binaryTreePreorderTraversalIterator } from "src/binary-tree-preorder-traversal";
+import { binaryTreePreorderTraversal, binaryTreePreorderTraversalIterator } from "../src/binary-tree/binary-tree-preorder-traversal";
 
 describe("二叉树的前序遍历", function () {
     describe("递归算法", function () {

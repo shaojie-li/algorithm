@@ -1,4 +1,4 @@
-import { binaryTreeInorderTraversal, binaryTreeInorderTraversalIterator } from "src/binary-tree-inorder-traversal";
+import { binaryTreeInorderTraversal, binaryTreeInorderTraversalIterator } from "../src/binary-tree/binary-tree-inorder-traversal";
 import { TreeNode } from "src/utils/TreeNode";
 
 describe("二叉树的中序遍历", function () {
