@@ -1,4 +1,4 @@
-import { singleNumberII } from "../src/singlen-number-II";
+import { singleNumberII } from "../src/single-number-II";
 
 describe("查找只出现一次的数字（II），不重复的数字会出现三次次", function () {
     it("输入 [2, 1, 1, 1]", function () {
