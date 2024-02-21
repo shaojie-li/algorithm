@@ -12,21 +12,19 @@ export const asyncOneByOne = (funcs: Function[]) => {
     });
 };
 
-function one(callback: Function) {
-    console.log("one");
-    typeof callback === "function" && callback();
-}
-
-function two(callback: Function) {
-    setTimeout(() => {
-        console.log("two");
-        typeof callback === "function" && callback();
-    }, 2000);
-}
-
-function three(callback: Function) {
-    console.log("three");
-    typeof callback === "function" && callback();
-}
-
-asyncOneByOne([one, two, three, two, one, three, two, one]);
+// function one(callback: Function) {
+//     console.log("one");
+//     typeof callback === "function" && callback();
+// }
+//
+// function two(callback: Function) {
+//     setTimeout(() => {
+//         console.log("two");
+//         typeof callback === "function" && callback();
+//     }, 2000);
+// }
+//
+// function three(callback: Function) {
+//     console.log("three");
+//     typeof callback === "function" && callback();
+// }

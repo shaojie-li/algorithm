@@ -1,7 +1,7 @@
 import { TreeNode } from "./utils/TreeNode";
 
 /**
- * 二叉搜索树
+ * 验证是否为二叉搜索树
  * ******
  *
  * 二叉搜索树的特性：

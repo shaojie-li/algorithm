@@ -1,5 +1,3 @@
-import { TreeNode } from "src/utils/TreeNode";
-
 /**
  * 无重复字符的最长子串
  * ******
@@ -16,12 +14,15 @@ export const lengthOfLongestSubstring = (s: string): number => {
 
     while (end <= s.length) {
         str = s.substring(start, end);
+        // 如果末尾的指针处的值包含在滑动窗口中，说明有重复的值，将滑动窗口向后移动，末尾的指针重置到开始指针的后一位
         if (str.includes(s[end])) {
             start++;
             end = start + 1;
         } else {
+            // 如果不包含，则末尾指针继续向后移动
             end++;
         }
+        // 通过迭代，找到最大长度的不重复子串
         maxStrLength = Math.max(maxStrLength, str.length);
     }
 

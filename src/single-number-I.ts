@@ -38,5 +38,3 @@ export const singleNumberI = (nums: number[]): number => {
 
     return result;
 };
-
-console.log(singleNumberI([2, 1, 1]));

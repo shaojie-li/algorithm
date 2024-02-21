@@ -41,5 +41,3 @@ export const handOutCandy = function (ratings: number[]): number {
 
     return candies.reduce<number>((a, b) => a + b, 0);
 };
-
-console.log(handOutCandy([1, 2, 2]));

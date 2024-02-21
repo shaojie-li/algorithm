@@ -27,8 +27,7 @@ export const singleNumberII = (nums: number[]): number => {
     }
 
     let result = 0;
-    for (const [key, val] of cache) {
-        console.log(key, val);
+    for (const [key] of cache) {
         if (cache.get(key) === 1) {
             result = key;
         }
@@ -36,5 +35,3 @@ export const singleNumberII = (nums: number[]): number => {
 
     return result;
 };
-
-console.log(singleNumberII([2, 1, 1, 1]));
