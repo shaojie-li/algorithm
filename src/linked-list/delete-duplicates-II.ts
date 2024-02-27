@@ -20,7 +20,7 @@
  * 思路：
  */
 
-import { compareTwoListNode, createArrayFromListNode, createListNodeFromArray, ListNode } from "../utils/ListNode";
+import { createArrayFromListNode, createListNodeFromArray, ListNode } from "../utils/ListNode";
 
 // 使用临时缓冲区实现
 export function deleteDuplicatesII_1(array: number[]): number[] {
@@ -29,7 +29,6 @@ export function deleteDuplicatesII_1(array: number[]): number[] {
 
     let node: ListNode<number> | null = head;
     let cache = new Set<number>();
-    let ans = new ListNode(0);
 
     while (node?.next) {
         if (cache.has(node.next.val)) {
