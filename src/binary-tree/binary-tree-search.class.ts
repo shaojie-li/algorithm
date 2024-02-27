@@ -1,4 +1,4 @@
-import { TreeNode } from "./utils/TreeNode";
+import { TreeNode } from "../utils/TreeNode";
 
 /**
  * 验证是否为二叉搜索树
@@ -8,13 +8,19 @@ import { TreeNode } from "./utils/TreeNode";
  * 1. 若左子树有值，则左子树的值小于当前根节点的值
  * 2. 若右子树有值，则右子树的值大于当前根节点的值
  * 3. 任意节点的左右子树的特性同上
+ *
+ * 思路：二叉搜索树的中序遍历是按从小到大排序的，按照这个特征编写代码即可
+ *
+ * 例如下面这颗二叉搜索树，如果按照中序遍历，其遍历结果为 `[1, 3, 5, 6, 10, 11]`，为一组有序的数组
+ * ```
+ *       5
+ *    3     10
+ *   1     6 11
+ * ```
  */
 export class BinaryTreeSearch {
-    constructor(public root: TreeNode | null | undefined) {}
+    constructor(public root: TreeNode | null) {}
 
-    /**
-     * 思路：二叉搜索树的中序遍历是按从小到大排序的，按照这个特征编写代码即可
-     */
     public isValidate() {
         if (!this.root?.val) return false;
 

@@ -7,7 +7,7 @@ export const asyncOneByOne = (funcs: Function[]) => {
 
     // 队列，先进先出
     const fn = funcs.shift();
-    fn.call(null, () => {
+    fn?.call(null, () => {
         asyncOneByOne(funcs);
     });
 };

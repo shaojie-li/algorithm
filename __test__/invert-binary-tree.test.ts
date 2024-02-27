@@ -1,4 +1,4 @@
-import { invertTree } from "src/invert-binary-tree";
+import { invertTree } from "../src/binary-tree/invert-binary-tree";
 import { TreeNode } from "src/utils/TreeNode";
 
 describe("翻转二叉树", function () {

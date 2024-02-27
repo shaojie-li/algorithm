@@ -6,8 +6,12 @@
  * 思路：辗转相除法
  *
  * 1. num1 % num2，假定除不尽
- * 2. 此时，num1 设为上一步骤的num2，num2为上一步骤 num1 与 num2 的余数
+ * 2. 此时，num1 设为上个步骤的num2，num2为上个步骤 num1 与 num2 的余数
  * 3. 以此类推，直到某个阶段的 num1 % num2 为 0 为止，结果至少为 1
+ *
+ * @example
+ * const gcd = calcGCD(3, 21); // 3
+ *
  */
 export const calcGCD = (num1: number, num2: number) => {
     while (num2 !== 0) {
