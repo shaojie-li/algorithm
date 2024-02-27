@@ -9,7 +9,7 @@
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky install",
     "format": "prettier --config --list-different --write \"**/{__test__,src}/**/*.{js,ts}\"",
-    "docs": "typedoc src/**/*.ts --out docs"
+    "docs": "typedoc --sort static-first src/*.ts src/**/*.ts --out docs"
   },
   "lint-staged": {
     "*.{js,ts}": [
